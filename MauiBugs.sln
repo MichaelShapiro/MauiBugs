@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionViewScrollCrash", "CollectionViewScrollCrash\CollectionViewScrollCrash.csproj", "{DD604254-1C8B-4E95-B602-43B9B7DD164D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionViewFooter", "CollectionViewFooter\CollectionViewFooter.csproj", "{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionViewFooter", "CollectionViewFooter\CollectionViewFooter.csproj", "{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDashCrash", "DoubleDashCrash\DoubleDashCrash.csproj", "{C1FB277E-CE0E-4404-9E65-2ABC8718851E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,12 @@ Global
 		{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

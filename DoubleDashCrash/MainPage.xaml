@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoubleDashCrash.MainPage"
+             Title="Home">
+
+    <Editor
+        Placeholder="1 - Tap here&#x0a;2 - open the flyout menu&#x0a;3- select 'Double Dash Crash'"
+        BackgroundColor="Black"
+        TextColor="Black"
+        HeightRequest="300" 
+        WidthRequest="300"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"/>
+
+</ContentPage>
