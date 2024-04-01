@@ -6,6 +6,7 @@
 
     <Editor
         Text="--"
+        FontSize="55"
         BackgroundColor="Yellow"
         VerticalOptions="Center" 
         HorizontalOptions="Center" />
