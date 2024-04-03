@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionViewScrollCrash",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionViewFooter", "CollectionViewFooter\CollectionViewFooter.csproj", "{F87D08FD-847D-4F9C-8EDA-CA6ED57E6F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDashCrash", "DoubleDashCrash\DoubleDashCrash.csproj", "{C1FB277E-CE0E-4404-9E65-2ABC8718851E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleDashCrash", "DoubleDashCrash\DoubleDashCrash.csproj", "{C1FB277E-CE0E-4404-9E65-2ABC8718851E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardMakesPageShift", "KeyboardMakesPageShift\KeyboardMakesPageShift.csproj", "{89259199-DF89-4B88-8523-716097286839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1FB277E-CE0E-4404-9E65-2ABC8718851E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
