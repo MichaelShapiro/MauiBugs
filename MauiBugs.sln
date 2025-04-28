@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleDashCrash", "DoubleDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardMakesPageShift", "KeyboardMakesPageShift\KeyboardMakesPageShift.csproj", "{89259199-DF89-4B88-8523-716097286839}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackbarBug", "SnackbarBug\SnackbarBug.csproj", "{D0F755CB-A085-47F1-A153-C73C381C09CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,11 @@ Global
 		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89259199-DF89-4B88-8523-716097286839}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D0F755CB-A085-47F1-A153-C73C381C09CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F755CB-A085-47F1-A153-C73C381C09CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F755CB-A085-47F1-A153-C73C381C09CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D0F755CB-A085-47F1-A153-C73C381C09CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F755CB-A085-47F1-A153-C73C381C09CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
