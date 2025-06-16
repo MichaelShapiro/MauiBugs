@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopupV2_MultipleBugs.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="Center"
+            Padding="30,0"
+            Spacing="25">
+
+            <Button
+                x:Name="btn_CV2_SelectionBug"
+                Text="CV2 selection bug" 
+                Clicked="OnClicked_CV2_SelectionBug"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="btn_DismissBug"
+                Text="PopupV2 dissmiss bug" 
+                Clicked="OnClicked_DismissBug"
+                HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
