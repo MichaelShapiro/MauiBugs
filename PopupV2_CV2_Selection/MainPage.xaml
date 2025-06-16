@@ -17,7 +17,7 @@
 
             <Button
                 x:Name="btn_DismissBug"
-                Text="PopupV2 dissmiss bug" 
+                Text="PopupV2 dismiss bug" 
                 Clicked="OnClicked_DismissBug"
                 HorizontalOptions="Fill" />
 
