@@ -20,7 +20,16 @@
             Grid.Row="1"
             SelectionMode="Multiple"
             SelectionChanged="CollectionView_SelectionChanged">
-            
+
+            <!--
+            This is the work-around the dismiss-on-inside-tap bug
+            Declaring and empty gesture recognizer will capture user input INSIDE the popup
+
+            <CollectionView.GestureRecognizers>
+                <TapGestureRecognizer/>
+            </CollectionView.GestureRecognizers>
+            -->
+
             <CollectionView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>0000000000</x:String>

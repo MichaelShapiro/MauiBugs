@@ -7,6 +7,17 @@
             Text="This popup is instantiated with CanBeDismissedByTappingOutsideOfPopup = true. 
             But if you tap INSIDE this popup - popup still gets dismissed."
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center">
+
+            <!--
+            This is the work-around the dismiss-on-inside-tap bug
+            Declaring and empty gesture recognizer will capture user input INSIDE the popup
+
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer/>
+            </Label.GestureRecognizers>
+            -->
+            
+        </Label>
     </VerticalStackLayout>
 </ContentView>

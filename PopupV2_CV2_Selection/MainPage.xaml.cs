@@ -16,7 +16,7 @@ namespace PopupV2_MultipleBugs
                 view:new PopupV2_CV2(),
                 options: new PopupOptions
                 {
-                    CanBeDismissedByTappingOutsideOfPopup = false,
+                    CanBeDismissedByTappingOutsideOfPopup = true,
                     PageOverlayColor = Colors.Black.WithAlpha(0.5f)
                 }
                 );
